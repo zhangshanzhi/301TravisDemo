@@ -15,7 +15,7 @@ android:
     - tools
     - platform-tools
     
-    #BUildTools version
+    #BuildTools version
     -build-tools-$ANDROID_BUILD_TOOLS_VERSION
     
     #SDK version
@@ -28,8 +28,8 @@ android:
     - extra-android-m2repository
     - extra-android-support
     
-    #BUilding the emulator
-    - sys-img-$ANDRROID_ABI-google_apis-$ANDROID_EMU_API_LEVEL
+    #Building the emulator
+    - sys-img-$ANDROID_ABI-google_apis-$ANDROID_EMU_API_LEVEL
 
   licenses:
       - 'android-sdk-preview-license-52d11cd2'
