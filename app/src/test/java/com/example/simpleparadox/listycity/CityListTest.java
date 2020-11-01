@@ -34,6 +34,6 @@ class CityListTest {
         City city = new City("Regina", "Saskatchewan");
         cityList.add(city);
         cityList.delete(city);
-        assertEquals(10, cityList.countCities());
+        assertEquals(1, cityList.countCities());
     }
 }
